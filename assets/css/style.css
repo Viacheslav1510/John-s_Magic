@@ -1,4 +1,68 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans&family=Work+Sans:wght@300&display=swap");
+/* Import from Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Hind, sans-serif;
+    font-weight: 500;
+    color: #131817;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+
+.section-heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-holder>div {
+    width: 65%;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: #95B0B6;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #000000cc;
+    margin: 20px;
+}
+
+.quote {
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+
+.name {
+    text-align: center;
+    font-weight: 500;
+    padding: 2px 10px;
+}
+
+.from {
+    text-align: right;
+    font-weight: 500;
+    padding: 2px 10px;
+}
 
 .contain {
     max-width: 1400px;
@@ -32,8 +96,56 @@
     margin-left: 5%;
 }
 
-img {
+.flex-item img {
     width: 40%;
     height: 700px;
 }
 
+.contain {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding:0 7rem;
+}
+.logo ul {
+    list-style-type: none;
+}
+.our-form {
+    padding-top: 8rem;
+    max-width: 45rem;
+}
+.size{
+    margin:1rem 0;
+}
+.close {
+    margin-bottom: 4rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: top;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-top: 2px solid black;
+}
+.footer-container li {
+    list-style-type: none;
+    color: black;
+}
+.footer-container li a {
+    color: black;
+}
+.social li {
+    padding-top: 0.8rem;
+}
+.footer-container li a:hover {
+    color: #F18805;
+}
+
+.copyright {
+    text-align: center;
+    background-color: aqua;
+    color: brown;
+    margin: 0;
+}
