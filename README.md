@@ -1,6 +1,6 @@
 <h1 align="center">John Magic Jacket</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://viacheslav1510.github.io/John-s_Magic/)
 
 This is the marketing website for John Magic Jacket tailor shop. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
