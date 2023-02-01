@@ -10,13 +10,30 @@
     padding-top: 8rem;
     max-width: 45rem;
 }
+
 .size{
     margin:1rem 0;
 }
+
 .close {
     margin-bottom: 4rem;
 }
+
+.flex-item {
+    display: flex;
+    background-color: #324B50;
+}
+
+.flex-item p {
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
 img {
-    width: 100%;
+    width: 40%;
     height: 700px;
 }
+
