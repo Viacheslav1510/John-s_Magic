@@ -3,7 +3,9 @@
     margin: 0 auto;
     padding:0 7rem;
 }
-
+.logo ul {
+    list-style-type: none;
+}
 .our-form {
     padding-top: 8rem;
     max-width: 45rem;
